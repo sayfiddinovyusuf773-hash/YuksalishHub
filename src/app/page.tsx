@@ -41,13 +41,13 @@ export default async function HomePage() {
 
         <div className="max-w-6xl mx-auto flex flex-col items-center text-center relative z-10">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/25 text-indigo-300 text-xs font-semibold mb-8 backdrop-blur-md animate-fade-in shadow-inner">
-            <Sparkles className="w-4 h-4 text-indigo-400" />
-            <span>O‘zbekiston yoshlarining yagona rivojlanish ekotizimi</span>
+          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1 sm:py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/25 text-indigo-300 text-[11px] sm:text-xs font-semibold mb-6 sm:mb-8 backdrop-blur-md shadow-inner text-center max-w-full">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
+            <span className="truncate sm:whitespace-normal">O‘zbekiston yoshlarining yagona rivojlanish ekotizimi</span>
           </div>
 
           {/* Master Headline */}
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
+          <h1 className="text-3xl sm:text-5xl lg:text-7xl font-black text-white tracking-tight leading-[1.15] max-w-4xl mb-4 sm:mb-6">
             Yoshlar birlashadi.{' '}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-violet-300 to-sky-300">
               Kelajak yuksaladi.
@@ -55,7 +55,7 @@ export default async function HomePage() {
           </h1>
 
           {/* Supporting Text */}
-          <p className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed font-normal">
+          <p className="text-xs sm:text-base lg:text-lg text-slate-300 max-w-2xl mb-8 sm:mb-10 leading-relaxed font-normal px-2">
             O‘zbekistonning barcha hududlaridagi yoshlar bilan bilim oling, yangi tillarni o‘rganing, kitobxonlikni rivojlantiring va o‘z g‘oyalaringizni haqiqiy loyihalarga aylantiring.
           </p>
 

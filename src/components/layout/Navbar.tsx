@@ -68,14 +68,14 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-2">
         {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-violet-600 to-sky-400 p-[1.5px] shadow-lg shadow-indigo-600/30 group-hover:scale-105 transition-transform">
+        <Link href="/" className="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+          <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-violet-600 to-sky-400 p-[1.5px] shadow-lg shadow-indigo-600/30 group-hover:scale-105 transition-transform shrink-0">
             <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center overflow-hidden relative">
               <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-violet-600/40 to-transparent" />
               {/* Minimal horizon / crescent dawn icon */}
-              <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-indigo-400">
+              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 sm:w-5 sm:h-5 text-indigo-400">
                 <path
                   d="M3 17C7.5 13 16.5 13 21 17"
                   stroke="currentColor"
@@ -86,11 +86,11 @@ export default function Navbar() {
               </svg>
             </div>
           </div>
-          <div className="flex flex-col">
-            <span className="text-xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-indigo-100 to-indigo-300">
+          <div className="flex flex-col min-w-0">
+            <span className="text-base sm:text-xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-indigo-100 to-indigo-300 whitespace-nowrap">
               Yuksalish Hub
             </span>
-            <span className="text-[10px] uppercase tracking-widest text-slate-400 font-semibold -mt-1">
+            <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-slate-400 font-semibold -mt-0.5 sm:-mt-1 whitespace-nowrap">
               Yoshlar Ekotizimi
             </span>
           </div>
@@ -254,16 +254,16 @@ export default function Navbar() {
               </div>
             </div>
           ) : (
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 sm:gap-2">
               <Link
                 href="/kirish"
-                className="text-xs font-semibold text-slate-300 hover:text-white px-3 py-2 rounded-xl hover:bg-slate-900 transition-all"
+                className="text-xs font-semibold text-slate-300 hover:text-white px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-xl hover:bg-slate-900 border border-transparent hover:border-slate-800 transition-all whitespace-nowrap"
               >
                 Kirish
               </Link>
               <Link
                 href="/royxatdan-otish"
-                className="text-xs font-semibold px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white shadow-lg shadow-indigo-600/25 transition-all"
+                className="hidden sm:inline-flex text-xs font-semibold px-3.5 sm:px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white shadow-lg shadow-indigo-600/25 transition-all whitespace-nowrap"
               >
                 Platformaga qo‘shilish
               </Link>
@@ -273,7 +273,8 @@ export default function Navbar() {
           {/* Mobile menu toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white"
+            className="md:hidden p-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white focus:outline-none shrink-0"
+            aria-label="Menyu"
           >
             {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
