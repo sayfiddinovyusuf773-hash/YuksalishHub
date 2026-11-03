@@ -14,7 +14,8 @@ import {
   AlertCircle,
   Save,
 } from 'lucide-react';
-import { User, Achievement } from '@/lib/types';
+import { User, Achievement, District } from '@/lib/types';
+import { SEED_REGIONS, SEED_DISTRICTS } from '@/data/seed';
 
 export default function ProfilePage() {
   const router = useRouter();
@@ -26,6 +27,9 @@ export default function ProfilePage() {
   const [surname, setSurname] = useState('');
   const [bio, setBio] = useState('');
   const [phone, setPhone] = useState('');
+  const [regionId, setRegionId] = useState('');
+  const [districtId, setDistrictId] = useState('');
+  const [districts, setDistricts] = useState<District[]>([]);
   const [interestInput, setInterestInput] = useState('');
   const [interests, setInterests] = useState<string[]>([]);
   const [saveStatus, setSaveStatus] = useState('');
@@ -44,6 +48,8 @@ export default function ProfilePage() {
         setSurname(d.user.surname || '');
         setBio(d.user.bio || '');
         setPhone(d.user.phone || '');
+        setRegionId(d.user.regionId || SEED_REGIONS[0].id);
+        setDistrictId(d.user.districtId || '');
         setInterests(d.user.interests || []);
         setLoading(false);
       })
@@ -54,6 +60,16 @@ export default function ProfilePage() {
     loadUser();
   }, []);
 
+  useEffect(() => {
+    if (regionId) {
+      const filtered = SEED_DISTRICTS.filter((d) => d.regionId === regionId);
+      setDistricts(filtered);
+      if (filtered.length > 0 && !filtered.some((d) => d.id === districtId)) {
+        setDistrictId(filtered[0].id);
+      }
+    }
+  }, [regionId]);
+
   const handleSaveProfile = async (e: React.FormEvent) => {
     e.preventDefault();
     setSaving(true);
@@ -63,7 +79,7 @@ export default function ProfilePage() {
       const res = await fetch('/api/user/profile', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, surname, bio, phone, interests }),
+        body: JSON.stringify({ name, surname, bio, phone, interests, regionId, districtId }),
       });
 
       const data = await res.json();
@@ -175,6 +191,37 @@ export default function ProfilePage() {
                 onChange={(e) => setSurname(e.target.value)}
                 className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-indigo-500"
               />
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs font-semibold text-slate-300 mb-1.5">Viloyat / Hudud</label>
+              <select
+                value={regionId}
+                onChange={(e) => setRegionId(e.target.value)}
+                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-indigo-500"
+              >
+                {SEED_REGIONS.map((r) => (
+                  <option key={r.id} value={r.id}>
+                    {r.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-slate-300 mb-1.5">Tuman / Shahar</label>
+              <select
+                value={districtId}
+                onChange={(e) => setDistrictId(e.target.value)}
+                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-indigo-500"
+              >
+                {districts.map((d) => (
+                  <option key={d.id} value={d.id}>
+                    {d.name}
+                  </option>
+                ))}
+              </select>
             </div>
           </div>
 
