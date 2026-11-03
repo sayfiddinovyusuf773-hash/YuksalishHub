@@ -1,0 +1,1764 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Alisher",
+      "surname": "Navro‘zov",
+      "username": "admin",
+      "email": "admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "SUPER_ADMIN",
+      "regionId": "toshkent-sh",
+      "regionName": "Toshkent shahri",
+      "districtId": "tsh-yunusobod",
+      "districtName": "Yunusobod tumani",
+      "bio": "Yuksalish Hub yoshlar platformasi bosh koordinatori va strategik rahbari.",
+      "interests": [
+        "Strategiya",
+        "EdTech",
+        "Sun’iy intellekt",
+        "Yoshlar siyosati"
+      ],
+      "directions": [
+        "it-innovatsiya",
+        "liderlik",
+        "kitobxonlik"
+      ],
+      "points": 1250,
+      "level": 7,
+      "createdAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "usr-coord-tas",
+      "name": "Bekzod",
+      "surname": "Sharipov",
+      "username": "toshkent_coord",
+      "email": "toshkent.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "toshkent-sh",
+      "regionName": "Toshkent shahri",
+      "districtId": "tsh-yunusobod",
+      "districtName": "Yunusobod tumani",
+      "bio": "Toshkent shahri yoshlar koordinatori.",
+      "interests": [
+        "IT",
+        "Innovatsiya"
+      ],
+      "directions": [
+        "it-innovatsiya"
+      ],
+      "points": 890,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-tov",
+      "name": "Sanjar",
+      "surname": "Ergashev",
+      "username": "tov_coord",
+      "email": "tov.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "toshkent-vil",
+      "regionName": "Toshkent viloyati",
+      "districtId": "tov-nurafshon",
+      "districtName": "Nurafshon shahri",
+      "bio": "Toshkent viloyati yoshlar koordinatori.",
+      "interests": [
+        "Tadbirkorlik"
+      ],
+      "directions": [
+        "liderlik"
+      ],
+      "points": 820,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-sam",
+      "name": "Dilnoza",
+      "surname": "Qodirova",
+      "username": "sam_coord",
+      "email": "samarqand.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "samarqand",
+      "regionName": "Samarqand viloyati",
+      "districtId": "sam-shahar",
+      "districtName": "Samarqand shahri",
+      "bio": "Samarqand viloyati yoshlar koordinatori, tadbirkorlik va ta’lim tashabbuslari rahbari.",
+      "interests": [
+        "Tashabbuskorlik",
+        "Tadbirlar",
+        "Kitobxonlik"
+      ],
+      "directions": [
+        "liderlik",
+        "kitobxonlik"
+      ],
+      "points": 840,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-jiz",
+      "name": "Otabek",
+      "surname": "Zokirov",
+      "username": "jizzax_coord",
+      "email": "jizzax.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "jizzax",
+      "regionName": "Jizzax viloyati",
+      "districtId": "jiz-shahar",
+      "districtName": "Jizzax shahri",
+      "bio": "Jizzax viloyati yoshlar yetakchisi va koordinatori.",
+      "interests": [
+        "IT",
+        "Volontyorlik"
+      ],
+      "directions": [
+        "it-innovatsiya",
+        "volontyorlik"
+      ],
+      "points": 790,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-bux",
+      "name": "Shaxnoza",
+      "surname": "Haydarova",
+      "username": "buxoro_coord",
+      "email": "buxoro.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "buxoro",
+      "regionName": "Buxoro viloyati",
+      "districtId": "bux-shahar",
+      "districtName": "Buxoro shahri",
+      "bio": "Buxoro viloyati koordinatori.",
+      "interests": [
+        "Tillar",
+        "Kitobxonlik"
+      ],
+      "directions": [
+        "til-organish",
+        "kitobxonlik"
+      ],
+      "points": 810,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-fer",
+      "name": "Sardor",
+      "surname": "Xolmatov",
+      "username": "fargona_coord",
+      "email": "fargona.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "fargona",
+      "regionName": "Farg‘ona viloyati",
+      "districtId": "fer-shahar",
+      "districtName": "Farg‘ona shahri",
+      "bio": "Farg‘ona vodiysi yoshlar koordinatori.",
+      "interests": [
+        "IT",
+        "Kitobxonlik"
+      ],
+      "directions": [
+        "it-innovatsiya",
+        "kitobxonlik"
+      ],
+      "points": 850,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-and",
+      "name": "Bobur",
+      "surname": "Saidov",
+      "username": "andijon_coord",
+      "email": "andijon.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "andijon",
+      "regionName": "Andijon viloyati",
+      "districtId": "and-shahar",
+      "districtName": "Andijon shahri",
+      "bio": "Andijon viloyati koordinatori.",
+      "interests": [
+        "Liderlik"
+      ],
+      "directions": [
+        "liderlik"
+      ],
+      "points": 780,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-nam",
+      "name": "Anvar",
+      "surname": "Mirzayev",
+      "username": "namangan_coord",
+      "email": "namangan.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "namangan",
+      "regionName": "Namangan viloyati",
+      "districtId": "nam-shahar",
+      "districtName": "Namangan shahri",
+      "bio": "Namangan viloyati koordinatori.",
+      "interests": [
+        "Tadbirkorlik"
+      ],
+      "directions": [
+        "liderlik"
+      ],
+      "points": 800,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-qas",
+      "name": "Sherzod",
+      "surname": "Pulatov",
+      "username": "qashqadaryo_coord",
+      "email": "qashqadaryo.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "qashqadaryo",
+      "regionName": "Qashqadaryo viloyati",
+      "districtId": "qas-qarshi",
+      "districtName": "Qarshi shahri",
+      "bio": "Qashqadaryo viloyati yoshlar koordinatori.",
+      "interests": [
+        "Adabiyot",
+        "Sport"
+      ],
+      "directions": [
+        "kitobxonlik"
+      ],
+      "points": 770,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-sur",
+      "name": "Komil",
+      "surname": "Bozorov",
+      "username": "surxondaryo_coord",
+      "email": "surxondaryo.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "surxondaryo",
+      "regionName": "Surxondaryo viloyati",
+      "districtId": "sur-termiz",
+      "districtName": "Termiz shahri",
+      "bio": "Surxondaryo viloyati koordinatori.",
+      "interests": [
+        "Volontyorlik"
+      ],
+      "directions": [
+        "volontyorlik"
+      ],
+      "points": 760,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-xor",
+      "name": "Mansur",
+      "surname": "Matyoqubov",
+      "username": "xorazm_coord",
+      "email": "xorazm.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "xorazm",
+      "regionName": "Xorazm viloyati",
+      "districtId": "xor-urganch",
+      "districtName": "Urganch shahri",
+      "bio": "Xorazm viloyati koordinatori.",
+      "interests": [
+        "IT",
+        "Tarix"
+      ],
+      "directions": [
+        "it-innovatsiya"
+      ],
+      "points": 790,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-nav",
+      "name": "Rustam",
+      "surname": "Karimov",
+      "username": "navoiy_coord",
+      "email": "navoiy.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "navoiy",
+      "regionName": "Navoiy viloyati",
+      "districtId": "nav-shahar",
+      "districtName": "Navoiy shahri",
+      "bio": "Navoiy viloyati koordinatori.",
+      "interests": [
+        "Innovatsiya"
+      ],
+      "directions": [
+        "it-innovatsiya"
+      ],
+      "points": 750,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-sir",
+      "name": "Jasur",
+      "surname": "Oripov",
+      "username": "sirdaryo_coord",
+      "email": "sirdaryo.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "sirdaryo",
+      "regionName": "Sirdaryo viloyati",
+      "districtId": "sir-guliston",
+      "districtName": "Guliston shahri",
+      "bio": "Sirdaryo viloyati koordinatori.",
+      "interests": [
+        "Volontyorlik"
+      ],
+      "directions": [
+        "volontyorlik"
+      ],
+      "points": 740,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-coord-qrk",
+      "name": "Azamat",
+      "surname": "Seytniyazov",
+      "username": "nukus_coord",
+      "email": "nukus.admin@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "REGIONAL_COORDINATOR",
+      "regionId": "qoraqalpogiston",
+      "regionName": "Qoraqalpog‘iston Respublikasi",
+      "districtId": "qrk-nukus",
+      "districtName": "Nukus shahri",
+      "bio": "Qoraqalpog‘iston Respublikasi yoshlar koordinatori.",
+      "interests": [
+        "Ekologiya",
+        "Volontyorlik"
+      ],
+      "directions": [
+        "volontyorlik"
+      ],
+      "points": 830,
+      "level": 5,
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "usr-youth-1",
+      "name": "Jasur",
+      "surname": "Bekmurodov",
+      "username": "jasurbek",
+      "email": "jasur@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "USER",
+      "regionId": "toshkent-sh",
+      "regionName": "Toshkent shahri",
+      "districtId": "tsh-chilonzor",
+      "districtName": "Chilonzor tumani",
+      "bio": "Frontend dasturchi, kitob shinavandasi va ingliz tili o‘rganuvchisi.",
+      "interests": [
+        "React",
+        "Next.js",
+        "Jadid adabiyoti",
+        "IELTS Speaking"
+      ],
+      "directions": [
+        "it-innovatsiya",
+        "kitobxonlik",
+        "til-organish"
+      ],
+      "points": 430,
+      "level": 3,
+      "createdAt": "2026-02-01T14:15:00Z"
+    },
+    {
+      "id": "usr-youth-2",
+      "name": "Madina",
+      "surname": "Rustamova",
+      "username": "madina_r",
+      "email": "madina@ufq.uz",
+      "passwordHash": "54af84479c7254053c13241287322829be49074bbfebcab5330d55e636bf2b98",
+      "role": "USER",
+      "regionId": "samarqand",
+      "regionName": "Samarqand viloyati",
+      "districtId": "sam-urgut",
+      "districtName": "Urgut tumani",
+      "bio": "Tibbiyot talabasi va ekologik volontyorlar guruhi tashabbuskori.",
+      "interests": [
+        "Yashil O‘zbekiston",
+        "Arab tili",
+        "Birlamchi tibbiy yordam"
+      ],
+      "directions": [
+        "volontyorlik",
+        "til-organish"
+      ],
+      "points": 510,
+      "level": 4,
+      "createdAt": "2026-02-05T09:40:00Z"
+    }
+  ],
+  "regions": [
+    {
+      "id": "toshkent-sh",
+      "name": "Toshkent shahri",
+      "code": "TAS",
+      "center": "Toshkent",
+      "areaKm2": 334,
+      "youthCount": 420000,
+      "activeCommunities": 28,
+      "activeProjects": 34,
+      "centerCoords": {
+        "x": 730,
+        "y": 220
+      }
+    },
+    {
+      "id": "toshkent-vil",
+      "name": "Toshkent viloyati",
+      "code": "TOV",
+      "center": "Nurafshon",
+      "areaKm2": 15300,
+      "youthCount": 385000,
+      "activeCommunities": 19,
+      "activeProjects": 22,
+      "centerCoords": {
+        "x": 740,
+        "y": 270
+      }
+    },
+    {
+      "id": "samarqand",
+      "name": "Samarqand viloyati",
+      "code": "SAM",
+      "center": "Samarqand",
+      "areaKm2": 16773,
+      "youthCount": 510000,
+      "activeCommunities": 26,
+      "activeProjects": 31,
+      "centerCoords": {
+        "x": 530,
+        "y": 390
+      }
+    },
+    {
+      "id": "buxoro",
+      "name": "Buxoro viloyati",
+      "code": "BUX",
+      "center": "Buxoro",
+      "areaKm2": 39400,
+      "youthCount": 260000,
+      "activeCommunities": 15,
+      "activeProjects": 18,
+      "centerCoords": {
+        "x": 410,
+        "y": 350
+      }
+    },
+    {
+      "id": "andijon",
+      "name": "Andijon viloyati",
+      "code": "AND",
+      "center": "Andijon",
+      "areaKm2": 4240,
+      "youthCount": 430000,
+      "activeCommunities": 21,
+      "activeProjects": 24,
+      "centerCoords": {
+        "x": 880,
+        "y": 245
+      }
+    },
+    {
+      "id": "fargona",
+      "name": "Farg‘ona viloyati",
+      "code": "FER",
+      "center": "Farg‘ona",
+      "areaKm2": 6800,
+      "youthCount": 490000,
+      "activeCommunities": 24,
+      "activeProjects": 27,
+      "centerCoords": {
+        "x": 840,
+        "y": 290
+      }
+    },
+    {
+      "id": "namangan",
+      "name": "Namangan viloyati",
+      "code": "NAM",
+      "center": "Namangan",
+      "areaKm2": 7900,
+      "youthCount": 380000,
+      "activeCommunities": 18,
+      "activeProjects": 19,
+      "centerCoords": {
+        "x": 810,
+        "y": 210
+      }
+    },
+    {
+      "id": "qashqadaryo",
+      "name": "Qashqadaryo viloyati",
+      "code": "QAS",
+      "center": "Qarshi",
+      "areaKm2": 28570,
+      "youthCount": 440000,
+      "activeCommunities": 17,
+      "activeProjects": 16,
+      "centerCoords": {
+        "x": 500,
+        "y": 460
+      }
+    },
+    {
+      "id": "surxondaryo",
+      "name": "Surxondaryo viloyati",
+      "code": "SUR",
+      "center": "Termiz",
+      "areaKm2": 20800,
+      "youthCount": 350000,
+      "activeCommunities": 14,
+      "activeProjects": 13,
+      "centerCoords": {
+        "x": 590,
+        "y": 520
+      }
+    },
+    {
+      "id": "xorazm",
+      "name": "Xorazm viloyati",
+      "code": "XOR",
+      "center": "Urganch",
+      "areaKm2": 6300,
+      "youthCount": 250000,
+      "activeCommunities": 16,
+      "activeProjects": 15,
+      "centerCoords": {
+        "x": 260,
+        "y": 240
+      }
+    },
+    {
+      "id": "navoiy",
+      "name": "Navoiy viloyati",
+      "code": "NAV",
+      "center": "Navoiy",
+      "areaKm2": 110800,
+      "youthCount": 160000,
+      "activeCommunities": 12,
+      "activeProjects": 11,
+      "centerCoords": {
+        "x": 440,
+        "y": 220
+      }
+    },
+    {
+      "id": "jizzax",
+      "name": "Jizzax viloyati",
+      "code": "JIZ",
+      "center": "Jizzax",
+      "areaKm2": 20500,
+      "youthCount": 190000,
+      "activeCommunities": 13,
+      "activeProjects": 12,
+      "centerCoords": {
+        "x": 620,
+        "y": 320
+      }
+    },
+    {
+      "id": "sirdaryo",
+      "name": "Sirdaryo viloyati",
+      "code": "SIR",
+      "center": "Guliston",
+      "areaKm2": 5100,
+      "youthCount": 120000,
+      "activeCommunities": 10,
+      "activeProjects": 9,
+      "centerCoords": {
+        "x": 680,
+        "y": 280
+      }
+    },
+    {
+      "id": "qoraqalpogiston",
+      "name": "Qoraqalpog‘iston Respublikasi",
+      "code": "QRK",
+      "center": "Nukus",
+      "areaKm2": 166600,
+      "youthCount": 270000,
+      "activeCommunities": 16,
+      "activeProjects": 14,
+      "centerCoords": {
+        "x": 170,
+        "y": 150
+      }
+    }
+  ],
+  "districts": [
+    {
+      "id": "tsh-yunusobod",
+      "regionId": "toshkent-sh",
+      "name": "Yunusobod tumani",
+      "type": "tuman",
+      "youthCount": 42000
+    },
+    {
+      "id": "tsh-chilonzor",
+      "regionId": "toshkent-sh",
+      "name": "Chilonzor tumani",
+      "type": "tuman",
+      "youthCount": 39000
+    },
+    {
+      "id": "tsh-mirzo-ulugbek",
+      "regionId": "toshkent-sh",
+      "name": "Mirzo Ulug‘bek tumani",
+      "type": "tuman",
+      "youthCount": 45000
+    },
+    {
+      "id": "tsh-yakkasaroy",
+      "regionId": "toshkent-sh",
+      "name": "Yakkasaroy tumani",
+      "type": "tuman",
+      "youthCount": 22000
+    },
+    {
+      "id": "tsh-shayxontohur",
+      "regionId": "toshkent-sh",
+      "name": "Shayxontohur tumani",
+      "type": "tuman",
+      "youthCount": 34000
+    },
+    {
+      "id": "tsh-olmazor",
+      "regionId": "toshkent-sh",
+      "name": "Olmazor tumani",
+      "type": "tuman",
+      "youthCount": 48000
+    },
+    {
+      "id": "tsh-mirobod",
+      "regionId": "toshkent-sh",
+      "name": "Mirobod tumani",
+      "type": "tuman",
+      "youthCount": 28000
+    },
+    {
+      "id": "tsh-sergeli",
+      "regionId": "toshkent-sh",
+      "name": "Sergeli tumani",
+      "type": "tuman",
+      "youthCount": 31000
+    },
+    {
+      "id": "sam-shahar",
+      "regionId": "samarqand",
+      "name": "Samarqand shahri",
+      "type": "shahar",
+      "youthCount": 88000
+    },
+    {
+      "id": "sam-urgut",
+      "regionId": "samarqand",
+      "name": "Urgut tumani",
+      "type": "tuman",
+      "youthCount": 65000
+    },
+    {
+      "id": "sam-pastdargom",
+      "regionId": "samarqand",
+      "name": "Pastdarg‘om tumani",
+      "type": "tuman",
+      "youthCount": 47000
+    },
+    {
+      "id": "sam-kattaqorgon",
+      "regionId": "samarqand",
+      "name": "Kattaqo‘rg‘on shahri",
+      "type": "shahar",
+      "youthCount": 26000
+    },
+    {
+      "id": "sam-ishtixon",
+      "regionId": "samarqand",
+      "name": "Ishtixon tumani",
+      "type": "tuman",
+      "youthCount": 35000
+    },
+    {
+      "id": "fer-shahar",
+      "regionId": "fargona",
+      "name": "Farg‘ona shahri",
+      "type": "shahar",
+      "youthCount": 64000
+    },
+    {
+      "id": "fer-qoqon",
+      "regionId": "fargona",
+      "name": "Qo‘qon shahri",
+      "type": "shahar",
+      "youthCount": 58000
+    },
+    {
+      "id": "fer-margilon",
+      "regionId": "fargona",
+      "name": "Marg‘ilon shahri",
+      "type": "shahar",
+      "youthCount": 46000
+    },
+    {
+      "id": "fer-oltiariq",
+      "regionId": "fargona",
+      "name": "Oltiariq tumani",
+      "type": "tuman",
+      "youthCount": 36000
+    },
+    {
+      "id": "and-shahar",
+      "regionId": "andijon",
+      "name": "Andijon shahri",
+      "type": "shahar",
+      "youthCount": 72000
+    },
+    {
+      "id": "and-asaka",
+      "regionId": "andijon",
+      "name": "Asaka tumani",
+      "type": "tuman",
+      "youthCount": 45000
+    },
+    {
+      "id": "and-shahrixon",
+      "regionId": "andijon",
+      "name": "Shahrixon tumani",
+      "type": "tuman",
+      "youthCount": 41000
+    },
+    {
+      "id": "bux-shahar",
+      "regionId": "buxoro",
+      "name": "Buxoro shahri",
+      "type": "shahar",
+      "youthCount": 52000
+    },
+    {
+      "id": "bux-gijduvon",
+      "regionId": "buxoro",
+      "name": "G‘ijduvon tumani",
+      "type": "tuman",
+      "youthCount": 43000
+    },
+    {
+      "id": "qrk-nukus",
+      "regionId": "qoraqalpogiston",
+      "name": "Nukus shahri",
+      "type": "shahar",
+      "youthCount": 56000
+    },
+    {
+      "id": "qrk-beruniy",
+      "regionId": "qoraqalpogiston",
+      "name": "Beruniy tumani",
+      "type": "tuman",
+      "youthCount": 31000
+    },
+    {
+      "id": "qrk-tortkol",
+      "regionId": "qoraqalpogiston",
+      "name": "To‘rtko‘l tumani",
+      "type": "tuman",
+      "youthCount": 34000
+    },
+    {
+      "id": "qas-qarshi",
+      "regionId": "qashqadaryo",
+      "name": "Qarshi shahri",
+      "type": "shahar",
+      "youthCount": 63000
+    },
+    {
+      "id": "qas-shahrisabz",
+      "regionId": "qashqadaryo",
+      "name": "Shahrisabz shahri",
+      "type": "shahar",
+      "youthCount": 41000
+    },
+    {
+      "id": "sur-termiz",
+      "regionId": "surxondaryo",
+      "name": "Termiz shahri",
+      "type": "shahar",
+      "youthCount": 44000
+    },
+    {
+      "id": "sur-denov",
+      "regionId": "surxondaryo",
+      "name": "Denov tumani",
+      "type": "tuman",
+      "youthCount": 49000
+    },
+    {
+      "id": "xor-urganch",
+      "regionId": "xorazm",
+      "name": "Urganch shahri",
+      "type": "shahar",
+      "youthCount": 48000
+    },
+    {
+      "id": "xor-xiva",
+      "regionId": "xorazm",
+      "name": "Xiva shahri",
+      "type": "shahar",
+      "youthCount": 29000
+    },
+    {
+      "id": "nam-shahar",
+      "regionId": "namangan",
+      "name": "Namangan shahri",
+      "type": "shahar",
+      "youthCount": 78000
+    },
+    {
+      "id": "nam-chust",
+      "regionId": "namangan",
+      "name": "Chust tumani",
+      "type": "tuman",
+      "youthCount": 39000
+    },
+    {
+      "id": "nav-shahar",
+      "regionId": "navoiy",
+      "name": "Navoiy shahri",
+      "type": "shahar",
+      "youthCount": 34000
+    },
+    {
+      "id": "nav-zarafshon",
+      "regionId": "navoiy",
+      "name": "Zarafshon shahri",
+      "type": "shahar",
+      "youthCount": 22000
+    },
+    {
+      "id": "jiz-shahar",
+      "regionId": "jizzax",
+      "name": "Jizzax shahri",
+      "type": "shahar",
+      "youthCount": 38000
+    },
+    {
+      "id": "jiz-zomin",
+      "regionId": "jizzax",
+      "name": "Zomin tumani",
+      "type": "tuman",
+      "youthCount": 25000
+    },
+    {
+      "id": "sir-guliston",
+      "regionId": "sirdaryo",
+      "name": "Guliston shahri",
+      "type": "shahar",
+      "youthCount": 27000
+    },
+    {
+      "id": "sir-yangiyer",
+      "regionId": "sirdaryo",
+      "name": "Yangiyer shahri",
+      "type": "shahar",
+      "youthCount": 15000
+    },
+    {
+      "id": "tov-nurafshon",
+      "regionId": "toshkent-vil",
+      "name": "Nurafshon shahri",
+      "type": "shahar",
+      "youthCount": 16000
+    },
+    {
+      "id": "tov-chirchiq",
+      "regionId": "toshkent-vil",
+      "name": "Chirchiq shahri",
+      "type": "shahar",
+      "youthCount": 35000
+    },
+    {
+      "id": "tov-angren",
+      "regionId": "toshkent-vil",
+      "name": "Angren shahri",
+      "type": "shahar",
+      "youthCount": 32000
+    }
+  ],
+  "directions": [
+    {
+      "id": "kitobxonlik",
+      "title": "Kitobxonlik va Adabiyot",
+      "tagline": "Tafakkurni charxlovchi eng ezgu odat",
+      "description": "Kitobxonlar klublari, oylik mutolaa marafoni, tahlillar va sevimli asarlar muhokamasi.",
+      "iconName": "BookOpen",
+      "accentColor": "#4F46E5",
+      "memberCount": 12480,
+      "activitiesCount": 340
+    },
+    {
+      "id": "til-organish",
+      "title": "Xorijiy Tillar",
+      "tagline": "Dunyo eshiklarini ochuvchi muloqot ko‘prigi",
+      "description": "Ingliz, arab, rus tillarida speaking klublar, so‘z boyligi marafonlari va xorijiy hamkorlar bilan amaliyot.",
+      "iconName": "Languages",
+      "accentColor": "#8B5CF6",
+      "memberCount": 18920,
+      "activitiesCount": 512
+    },
+    {
+      "id": "it-innovatsiya",
+      "title": "IT va Innovatsiya",
+      "tagline": "Kelajak texnologiyalarini bugun yaratamiz",
+      "description": "Dasturlash, sun’iy intellekt, xakatonlar, jamoa tuzish va startap loyihalarni amaliyotga tatbiq etish.",
+      "iconName": "Code2",
+      "accentColor": "#06B6D4",
+      "memberCount": 15400,
+      "activitiesCount": 428
+    },
+    {
+      "id": "liderlik",
+      "title": "Liderlik va Tadbirkorlik",
+      "tagline": "Tashabbuskor yoshlar — taraqqiyot poydevori",
+      "description": "Liderlik qobiliyatlari, startap g‘oyalarni tekshirish, biznes-reja tuzish va yetakchi mentorlar master-klasslari.",
+      "iconName": "Rocket",
+      "accentColor": "#F59E0B",
+      "memberCount": 9800,
+      "activitiesCount": 215
+    },
+    {
+      "id": "volontyorlik",
+      "title": "Volontyorlik va Ijtimoiy Tashabbuslar",
+      "tagline": "Jamiyatga foyda keltirish — eng oliy baxt",
+      "description": "Ekologik harakatlar, bepul ta’lim loyihalari, xayriya aksiyalari va hududiy obodonlashtirish tashabbuslari.",
+      "iconName": "HeartHandshake",
+      "accentColor": "#10B981",
+      "memberCount": 11300,
+      "activitiesCount": 290
+    }
+  ],
+  "communities": [
+    {
+      "id": "com-1",
+      "title": "Ziyo Mutolaa Klubi",
+      "slug": "ziyo-mutolaa-klubi",
+      "description": "Klassik va zamonaviy asarlarni chuqur tahlil qiluvchi respublika kitobxonlar birlashmasi. Har oyda kamida 2 ta kitob muhokamasi.",
+      "directionId": "kitobxonlik",
+      "regionId": "toshkent-sh",
+      "regionName": "Toshkent shahri",
+      "memberCount": 842,
+      "coordinatorId": "usr-admin-1",
+      "coordinatorName": "Alisher Navro‘zov",
+      "coverImage": "linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)",
+      "createdAt": "2026-01-15T00:00:00Z",
+      "rules": [
+        "Hurmat va samimiy adabiy muloqot",
+        "Mualliflik huquqini buzuvchi pirat fayllar tarqatilmasligi",
+        "Fikrlarni argumentlar bilan asoslash"
+      ],
+      "members": [
+        "usr-admin-1",
+        "usr-youth-1"
+      ]
+    },
+    {
+      "id": "com-2",
+      "title": "Global Speakers English Club",
+      "slug": "global-speakers-english-club",
+      "description": "Ingliz tilida erkin so‘zlashish, IELTS Speaking amaliyotlari va xalqaro talabalar bilan haftalik jonli ovozli sessiyalar.",
+      "directionId": "til-organish",
+      "regionId": "samarqand",
+      "regionName": "Samarqand viloyati",
+      "memberCount": 1240,
+      "coordinatorId": "usr-coord-sam",
+      "coordinatorName": "Dilnoza Qodirova",
+      "coverImage": "linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)",
+      "createdAt": "2026-01-18T00:00:00Z",
+      "rules": [
+        "Faol ingliz tilida muloqot (English only sessions)",
+        "Xatolardan qo‘rqmasdan faol ishtirok etish"
+      ],
+      "members": [
+        "usr-coord-sam",
+        "usr-youth-1",
+        "usr-youth-2"
+      ]
+    },
+    {
+      "id": "com-3",
+      "title": "DevHorizon O‘zbekiston IT Jamiyati",
+      "slug": "devhorizon-it-jamiyati",
+      "description": "Dasturchilar, dizaynerlar va ma’lumotlar muhandislari uchun jamoaviy loyihalar, kod tahlillari va mentorlik maydoni.",
+      "directionId": "it-innovatsiya",
+      "regionId": "toshkent-sh",
+      "regionName": "Toshkent shahri",
+      "memberCount": 1680,
+      "coordinatorId": "usr-admin-1",
+      "coordinatorName": "Alisher Navro‘zov",
+      "coverImage": "linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)",
+      "createdAt": "2026-01-12T00:00:00Z",
+      "rules": [
+        "Clean Code va Open Source tamoyillariga hurmat",
+        "Yangi boshlovchilarga konstruktiv ko‘mak berish"
+      ],
+      "members": [
+        "usr-admin-1",
+        "usr-moderator-1",
+        "usr-youth-1"
+      ]
+    },
+    {
+      "id": "com-4",
+      "title": "Kelajak Liderlari & Startaplar",
+      "slug": "kelajak-liderlari-startaplar",
+      "description": "O‘z biznes g‘oyasini haqiqiy startapga aylantirmoqchi bo‘lgan yosh tadbirkorlar va innovatorlar tarmog‘i.",
+      "directionId": "liderlik",
+      "regionId": "fargona",
+      "regionName": "Farg‘ona viloyati",
+      "memberCount": 620,
+      "coordinatorId": "usr-moderator-1",
+      "coordinatorName": "Sardor Xolmatov",
+      "coverImage": "linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)",
+      "createdAt": "2026-01-25T00:00:00Z",
+      "rules": [
+        "G‘oyalar va tijorat sirlarini o‘g‘irlamaslik",
+        "Jamoaviy mas’uliyat va halollik"
+      ],
+      "members": [
+        "usr-moderator-1"
+      ]
+    },
+    {
+      "id": "com-5",
+      "title": "Yashil Qadam Volontyorlik Markazi",
+      "slug": "yashil-qadam-volontyorlik",
+      "description": "Orolbo‘yi va respublika hududlarida yashil bog‘lar barpo etish, ekologik madaniyatni oshirish va ijtimoiy yordam loyihalari.",
+      "directionId": "volontyorlik",
+      "regionId": "qoraqalpogiston",
+      "regionName": "Qoraqalpog‘iston Respublikasi",
+      "memberCount": 950,
+      "coordinatorId": "usr-admin-1",
+      "coordinatorName": "Alisher Navro‘zov",
+      "coverImage": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+      "createdAt": "2026-02-01T00:00:00Z",
+      "rules": [
+        "Beg‘araz insonparvarlik va tabiatni asrash",
+        "Xavfsizlik qoidalariga qat’iy rioya qilish"
+      ],
+      "members": [
+        "usr-youth-2"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "communityId": "com-1",
+      "authorId": "usr-youth-1",
+      "authorName": "Jasur Bekmurodov",
+      "authorRole": "USER",
+      "title": "Abdulla Qodiriyning \"O‘tkan kunlar\" romanida jadidona qarashlar",
+      "content": "Do‘stlar, romanni qayta o‘qiyotib, Otabek va Kumushning fojiasi faqatgina muhabbat emas, balki jamiyatdagi ma’rifatsizlik va eski aqidalar natijasi ekaniga yana bir bor amin bo‘ldim. Sizningcha, romandagi asosiy saboq bugungi yoshlar uchun nimada?",
+      "likes": [
+        "usr-admin-1",
+        "usr-coord-sam"
+      ],
+      "commentsCount": 2,
+      "createdAt": "2026-02-18T11:20:00Z"
+    },
+    {
+      "id": "post-2",
+      "communityId": "com-2",
+      "authorId": "usr-coord-sam",
+      "authorName": "Dilnoza Qodirova",
+      "authorRole": "REGIONAL_COORDINATOR",
+      "title": "Weekly Debate: Is Remote Work Better for Personal Growth?",
+      "content": "Hello everyone! This Saturday at 18:00 we are hosting our weekly Zoom speaking session. The main topic: \"The Pros and Cons of Remote Work for Young Professionals\". Prepare 3 key arguments!",
+      "likes": [
+        "usr-youth-1",
+        "usr-youth-2"
+      ],
+      "commentsCount": 1,
+      "createdAt": "2026-02-20T16:00:00Z"
+    },
+    {
+      "id": "post-3",
+      "communityId": "com-3",
+      "authorId": "usr-admin-1",
+      "authorName": "Alisher Navro‘zov",
+      "authorRole": "SUPER_ADMIN",
+      "title": "O‘zbek tilida texnik hujjatlar va ochiq kodli loyihalar marafonini boshlaymiz!",
+      "content": "IT yo‘nalishidagi yoshlar uchun ajoyib imkoniyat: Ochiq kodli kutubxonalarni o‘zbek tiliga mahalliylashtirish va yangi boshlovchilar uchun amaliy GitHub repozitoriylarini tayyorlaymiz. Qiziqqanlar izohlarda yozib qoldirsin.",
+      "likes": [
+        "usr-youth-1",
+        "usr-moderator-1"
+      ],
+      "commentsCount": 0,
+      "createdAt": "2026-02-22T09:10:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comm-1",
+      "postId": "post-1",
+      "authorId": "usr-coord-sam",
+      "authorName": "Dilnoza Qodirova",
+      "content": "Juda to‘g‘ri fikr! Abdulla Qodiriy xalqimizning ma’rifatga intilishini yuksak mahorat bilan ochib bergan.",
+      "createdAt": "2026-02-18T14:30:00Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Kutubxona.uz — Qishloq maktablari uchun ochiq kitob almashinuvi",
+      "summary": "Chekka hududlardagi maktablarga yoshlar tomonidan kitob to‘plab yetkazish va raqamli kutubxona tizimini joriy qilish.",
+      "description": "Loyihaning asosiy maqsadi — respublikamizning chekka tumanlaridagi 50 ta maktabda zamonaviy kitob burchaklarini tashkil etish, yoshlar o‘rtasida kitob almashish (bookcrossing) madaniyatini shakllantirish.",
+      "category": "kitobxonlik",
+      "regionId": "samarqand",
+      "regionName": "Samarqand viloyati",
+      "districtName": "Urgut tumani",
+      "authorId": "usr-youth-2",
+      "authorName": "Madina Rustamova",
+      "status": "Jarayonda",
+      "progressPercent": 65,
+      "neededRoles": [
+        "Logistika koordinatori",
+        "Frontend dasturchi",
+        "Kontent menejer"
+      ],
+      "members": [
+        {
+          "userId": "usr-youth-2",
+          "name": "Madina Rustamova",
+          "role": "Loyiha rahbari",
+          "joinedAt": "2026-01-20"
+        },
+        {
+          "userId": "usr-youth-1",
+          "name": "Jasur Bekmurodov",
+          "role": "Veb-ishlab chiquvchi",
+          "joinedAt": "2026-02-01"
+        }
+      ],
+      "milestones": [
+        {
+          "id": "m1",
+          "title": "Kitoblar ro‘yxatini shakllantirish",
+          "isCompleted": true,
+          "dueDate": "2026-02-01"
+        },
+        {
+          "id": "m2",
+          "title": "Birinchi 500 ta kitobni to‘plash",
+          "isCompleted": true,
+          "dueDate": "2026-02-15"
+        },
+        {
+          "id": "m3",
+          "title": "Urgut tumanidagi 5 ta maktabga yetkazish",
+          "isCompleted": false,
+          "dueDate": "2026-03-10"
+        }
+      ],
+      "createdAt": "2026-01-20T10:00:00Z",
+      "coverGradient": "linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%)"
+    },
+    {
+      "id": "proj-2",
+      "title": "EcoNav — Hududiy chiqindilarni saralash va qayta ishlash xaritasi",
+      "summary": "Aholi va yoshlar uchun shahar bo‘yicha ekologik qabul punktlari va qayta ishlash tashabbuslari mobil xaritasi.",
+      "description": "Shaharlardagi plastik, qog‘oz va elektron chiqindilarni topshirish punktlarini aniqlovchi qulay platforma. Foydalanuvchilar har bir topshirilgan xomashyo uchun ball to‘playdi.",
+      "category": "volontyorlik",
+      "regionId": "toshkent-sh",
+      "regionName": "Toshkent shahri",
+      "districtName": "Chilonzor tumani",
+      "authorId": "usr-youth-1",
+      "authorName": "Jasur Bekmurodov",
+      "status": "Jamoa shakllanmoqda",
+      "progressPercent": 30,
+      "neededRoles": [
+        "UI/UX Dizayner",
+        "Backend muhandis (Node.js)",
+        "SMM mutaxassisi"
+      ],
+      "members": [
+        {
+          "userId": "usr-youth-1",
+          "name": "Jasur Bekmurodov",
+          "role": "Loyiha muallifi",
+          "joinedAt": "2026-02-10"
+        }
+      ],
+      "milestones": [
+        {
+          "id": "m4",
+          "title": "Toshkent shahar punktlari bazasini tuzish",
+          "isCompleted": true,
+          "dueDate": "2026-02-25"
+        },
+        {
+          "id": "m5",
+          "title": "MVP prototipini yaratish",
+          "isCompleted": false,
+          "dueDate": "2026-03-20"
+        }
+      ],
+      "createdAt": "2026-02-10T12:30:00Z",
+      "coverGradient": "linear-gradient(135deg, #10b981 0%, #14b8a6 100%)"
+    },
+    {
+      "id": "proj-3",
+      "title": "AgroInnovate — Qishloq xo‘jaligida sun’iy intellekt monitoringi",
+      "summary": "Fermer yoshlar uchun ekin kasalliklarini smartfon kamerasi orqali erta aniqlovchi dasturiy ta’minot.",
+      "description": "O‘zbekiston iqlimi va tuproq sharoitlariga moslashtirilgan kompyuter ko‘rish modeli orqali paxta, g‘alla va mevali daraxtlar zararkunandalarini aniqlash.",
+      "category": "it-innovatsiya",
+      "regionId": "fargona",
+      "regionName": "Farg‘ona viloyati",
+      "districtName": "Farg‘ona shahri",
+      "authorId": "usr-moderator-1",
+      "authorName": "Sardor Xolmatov",
+      "status": "G‘oya",
+      "progressPercent": 15,
+      "neededRoles": [
+        "Data Scientist / ML",
+        "Agronom maslahatchi",
+        "Mobile Developer (Flutter)"
+      ],
+      "members": [
+        {
+          "userId": "usr-moderator-1",
+          "name": "Sardor Xolmatov",
+          "role": "Bosh muhandis",
+          "joinedAt": "2026-02-15"
+        }
+      ],
+      "milestones": [
+        {
+          "id": "m6",
+          "title": "Dataset to‘plash va belgilash",
+          "isCompleted": false,
+          "dueDate": "2026-03-30"
+        }
+      ],
+      "createdAt": "2026-02-15T09:00:00Z",
+      "coverGradient": "linear-gradient(135deg, #f59e0b 0%, #d97706 100%)"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "O‘zbekiston Yoshlar Sammiti 2026: Sun’iy intellekt va Ta’lim",
+      "description": "Respublikaning eng ilg‘or yoshlari, soha ekspertlari va xalqaro mutaxassislar ishtirokidagi katta forum.",
+      "category": "it-innovatsiya",
+      "date": "2026-03-15",
+      "time": "10:00 - 16:00",
+      "type": "OFFLINE",
+      "location": "Toshkent shahri, Yoshlar Ijod Saroyi",
+      "regionId": "toshkent-sh",
+      "regionName": "Toshkent shahri",
+      "organizer": "Yuksalish Hub Respublika Kengashi",
+      "organizerRole": "Bosh tashkilotchi",
+      "capacity": 500,
+      "attendees": [
+        "usr-admin-1",
+        "usr-youth-1"
+      ],
+      "coverGradient": "linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)"
+    },
+    {
+      "id": "evt-2",
+      "title": "Jadidlar merosi va zamonaviy tafakkur: Onlayn kitob muloqoti",
+      "description": "Mahmudxo‘ja Behbudiy va Abdurauf Fitrat asarlarining bugungi kunda dolzarbligi bo‘yicha ochiq adabiy uchrashuv.",
+      "category": "kitobxonlik",
+      "date": "2026-03-05",
+      "time": "19:30 - 21:00",
+      "type": "ONLINE",
+      "location": "Zoom platformasi (Havola ro‘yxatdan o‘tgach yuboriladi)",
+      "regionId": "samarqand",
+      "regionName": "Samarqand viloyati",
+      "organizer": "Ziyo Mutolaa Klubi",
+      "organizerRole": "Kitobxonlik yetakchisi",
+      "capacity": 200,
+      "attendees": [
+        "usr-coord-sam",
+        "usr-youth-1"
+      ],
+      "coverGradient": "linear-gradient(135deg, #6366f1 0%, #4338ca 100%)"
+    },
+    {
+      "id": "evt-3",
+      "title": "English Speaking Intensive: Master Your Pitch",
+      "description": "How to present your projects and ideas in front of international investors and academic committees in fluent English.",
+      "category": "til-organish",
+      "date": "2026-03-08",
+      "time": "18:00 - 19:30",
+      "type": "ONLINE",
+      "location": "Google Meet onlayn sessiyasi",
+      "regionId": "toshkent-sh",
+      "regionName": "Toshkent shahri",
+      "organizer": "Global Speakers English Club",
+      "organizerRole": "Lead Mentor",
+      "capacity": 100,
+      "attendees": [
+        "usr-youth-1",
+        "usr-youth-2"
+      ],
+      "coverGradient": "linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)"
+    },
+    {
+      "id": "evt-4",
+      "title": "Samarqand \"Yashil Makon\" yoshlar ekologik hashari",
+      "description": "Samarqand viloyati bo‘ylab 5000 tup mevali va manzarali daraxt ko‘chatlarini ekish aksiyasi.",
+      "category": "volontyorlik",
+      "date": "2026-03-21",
+      "time": "08:30 - 14:00",
+      "type": "OFFLINE",
+      "location": "Samarqand shahri, Cho‘ponota tevaragi",
+      "regionId": "samarqand",
+      "regionName": "Samarqand viloyati",
+      "organizer": "Dilnoza Qodirova",
+      "organizerRole": "Hududiy koordinator",
+      "capacity": 300,
+      "attendees": [
+        "usr-youth-2"
+      ],
+      "coverGradient": "linear-gradient(135deg, #10b981 0%, #047857 100%)"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "chl-1",
+      "title": "Bahoriy 3 Kitob Mutolaa Marafoni",
+      "directionId": "kitobxonlik",
+      "description": "30 kun ichida kamida 3 ta ilmiy-ommabop yoki badiiy asarni to‘liq mutolaa qilish va taqriz yozish.",
+      "rewardPoints": 150,
+      "durationDays": 30,
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-31",
+      "targetCount": 3,
+      "targetUnit": "kitob",
+      "participants": [
+        {
+          "userId": "usr-youth-1",
+          "currentCount": 2,
+          "completed": false
+        },
+        {
+          "userId": "usr-youth-2",
+          "currentCount": 3,
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "chl-2",
+      "title": "30 Kunlik Yangi Lug‘at (500 ta so‘z)",
+      "directionId": "til-organish",
+      "description": "Har kuni o‘rganilayotgan xorijiy tilda yangi so‘zlar yodlash va ularni nutqda qo‘llash amaliyoti.",
+      "rewardPoints": 200,
+      "durationDays": 30,
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-31",
+      "targetCount": 500,
+      "targetUnit": "so‘z",
+      "participants": [
+        {
+          "userId": "usr-youth-1",
+          "currentCount": 280,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "chl-3",
+      "title": "IT Prototip Yaratish: 14 Kunlik Sprint",
+      "directionId": "it-innovatsiya",
+      "description": "Jamiyat uchun foydali kichik ochiq kodli veb-ilova yoki bot yaratish va uni GitHub’da e’lon qilish.",
+      "rewardPoints": 250,
+      "durationDays": 14,
+      "startDate": "2026-03-10",
+      "endDate": "2026-03-24",
+      "targetCount": 1,
+      "targetUnit": "loyiha",
+      "participants": [
+        {
+          "userId": "usr-youth-1",
+          "currentCount": 0,
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "book-1",
+      "title": "O‘tkan kunlar",
+      "author": "Abdulla Qodiriy",
+      "category": "O‘zbek mumtoz adabiyoti",
+      "pages": 412,
+      "description": "O‘zbek adabiyotidagi ilk realistik roman. XIX asr o‘rtalaridagi Toshkent va Qo‘qon hayoti, muhabbat va jamiyat muammolari.",
+      "coverColor": "#312E81",
+      "rating": 4.9,
+      "reviewsCount": 128,
+      "chapters": [
+        {
+          "id": "c1",
+          "title": "1-bob: 1264-hijriy dalv oyining o‘n yettinchisi",
+          "pageStart": 1,
+          "content": "1264-hijriy, dalv oyining o‘n yettinchisi, qishki quyosh botish arafasida Marg‘ilon darvozasidan yoshgina bir yigit kirdi. U ustiga kimxob to‘n kiygan, boshiga oq salla o‘ragan, qaddi-qomati kelishgan, ko‘zlarida teran aql va viqor porlab turgan Toshkent savdogari Otabek edi.\n\nMarg‘ilon ko‘chalari qor bilan qoplangan, mudroq sukunat ichra odamlar peshindan so‘ng o‘z uylariga shoshilardi. Otabek bu shaharga otasi Yusufbek hojining savdo ishlarini boshqarish, karvon mollarini topshirish va mahalliy hunarmandlar bilan kelishuvlar tuzish uchun kelgan edi. Ammo taqdir unga boshqa bir saodatni — butun umriga tatigulik buyuk muhabbatni hozirlab qo‘yganini hali u bilmas edi.\n\nOtabek Ziyo shohichining do‘koniga yetib keldi. Do‘kondorlar va mahalla oqsoqollari Otabekning odob-axloqi, vazminligi va o‘tkir zehnini ko‘rib hayratda qolardilar. \"Toshkentlik bu yigit naqadar xushxulq, ilmli va tadbirkor ekan\", — deb pichirlashardi atrofidagilar.\n\nOqshom tushgach, Otabek mezbonning hovlisiga kirdi. O‘sha oqshom uning nigohi tasodifan bir chehraga — oydek to‘lin, ko‘zlari tim qora, odob bilan yerga boquvchi Kumushbibiga tushdi..."
+        },
+        {
+          "id": "c2",
+          "title": "2-bob: Ziyo shohichi xonadonida suhbat",
+          "pageStart": 35,
+          "content": "Ziyo shohichining mehmoxonasida Marg‘ilonning obro‘li kishilari to‘planishgan edi. Dasturxon atrofida choy ichilar, zamonaning ahvoli, xonlikdagi parokandalik va xalqning og‘ir turmush sharoiti haqida bahslar qizirdi.\n\nOtabek so‘z boshladi:\n— Janoblar, xonliklarimiz o‘rtasidagi nifoq va fitnalar yurtimizni xonavayron qilmoqda. Ilm-ma’rifatdan uzoqlashganimiz sari boshqa qudratli davlatlar oldida ojiz qolamiz. Biz savdo-sotiqni yangicha yo‘lga qo‘yishimiz, yoshlarimizga zamonaviy bilimlarni o‘rgatishimiz, o‘zaro birodarlikni tiklashimiz darkor.\n\nKatta yoshli mehmonlar yosh yigitning teran tahlilidan hayratga tushishdi. Akramxo‘ja tabassum bilan dedi:\n— Yusufbek hojining o‘g‘li otasidan ham o‘tib tushibdi. Haqiqat shuki, yurtimizga aynan mana shunday bedor va vatanparvar yoshlar kerak!"
+        },
+        {
+          "id": "c3",
+          "title": "3-bob: Kumushbibining visoli va iztiroblar",
+          "pageStart": 90,
+          "content": "Kumushbibi ichkarida xolasi bilan suhbatlasharkan, yuragida g‘alati bir tuyg‘u jo‘sh urardi. U mehmonga kelgan toshkentlik yigitning odobi, salobati haqidagi maqtovlarni eshitgan, ammo uni o‘z ko‘zi bilan ko‘rgach, hayotidagi barcha orzulari aynan shu inson bilan bog‘lanib ketganini angladi.\n\n\"Ey xudo, bu qanday qudratki, bir lahzalik nigoh butun qalbni egallab olsa?\" — derdi Kumush deraza pardasi ortidan hovliga boqib.\n\nBiroq taqdir yo‘llari silliq emas edi. Qudratli fitnachilar, zamonaning chirkin urf-odatlari va eski qarashlar bu ikki pok qalb o‘rtasiga tikanlar sochishga tayyor turardi..."
+        }
+      ]
+    },
+    {
+      "id": "book-2",
+      "title": "Atom Odatlari (Atomic Habits)",
+      "author": "James Clear",
+      "category": "Shaxsiy rivojlanish",
+      "pages": 320,
+      "description": "Kichik o‘zgarishlar orqali hayotda ulkan natijalarga erishish va zararli odatlardan xalos bo‘lish bo‘yicha dunyo bestselleri.",
+      "coverColor": "#065F46",
+      "rating": 4.8,
+      "reviewsCount": 215,
+      "chapters": [
+        {
+          "id": "ah-1",
+          "title": "1-bob: Kichik o‘zgarishlarning kutilmagan qudrati (1% qoidasi)",
+          "pageStart": 1,
+          "content": "Odamlar ko‘pincha ulkan muvaffaqiyatga erishish uchun ulkan harakat qilish kerak deb o‘ylashadi. Vaholanki, haqiqiy o‘zgarishlar mayda, ko‘zga deyarli tashlanmaydigan 1 foizlik yaxshilanishlar orqali yuz beradi.\n\nMatematikani ko‘ring:\nAgar siz har kuni atigi 1% yaxshiroq bo‘lsangiz, bir yil davomida (365 kun) siz boshlang‘ich darajangizdan 37 barobar kuchliroq bo‘lasiz!\nAksincha, agar har kuni atigi 1% orqaga ketsangiz, bir yildan keyin natijangiz deyarli nolga teng bo‘ladi.\n\nOdatlar — bu shaxsiy o‘sishning murakkab foizlaridir. Bir kunda kitobning 10 betini o‘qish hayotingizni darhol o‘zgartirmaydi, lekin har kuni 10 betdan o‘qish bir yilda 3650 bet, ya’ni 12-15 ta jiddiy asar deganidir!"
+        },
+        {
+          "id": "ah-2",
+          "title": "2-bob: Odatlar shakllanishining 4 ta qonuni",
+          "pageStart": 45,
+          "content": "Miya har qanday xatti-harakatni avtomatlashtirish uchun 4 bosqichli tsikldan foydalanadi:\n1. Signal (Ishora) — diqqatni tortadi.\n2. Istak (Ishtiyoq) — motivatsiya beradi.\n3. Reaksiya (Harakat) — amaliyot.\n4. Mukofot — miyaga \"bu yoqimli, takrorla\" signalini beradi.\n\nYaxshi odatni shakllantirish uchun:\n• 1-qonun: Uni ko‘zga ko‘rinarli qiling (Kitobni stol ustiga qo‘ying).\n• 2-qonun: Uni jozibador qiling (Yoqimli musiqa yoki choy bilan birga bajaring).\n• 3-qonun: Uni osonlashtiring (2 daqiqa qoidasi: harakatni boshlash 2 daqiqadan oshmasin).\n• 4-qonun: Uni qoniqarli qiling (O‘z rivojlanishingizni Yuksalish Hub dashboardida qayd etib, darhol ball oling)."
+        },
+        {
+          "id": "ah-3",
+          "title": "3-bob: 2 daqiqa qoidasi va muhitning roli",
+          "pageStart": 110,
+          "content": "Yangi odatni boshlashda eng qiyin bosqich — bu boshlash nuqtasi. Shuning uchun \"2 daqiqa qoidasi\"ni qo‘llang:\n— \"Har kuni 30 daqiqa yuguraman\" emas, \"Krossovkamni kiyib, ko‘chaga chiqaman\".\n— \"Har kuni 50 ta yangi so‘z yodlayman\" emas, \"Lug‘at daftarimni ochib, 2 ta so‘zni o‘qiyman\".\n\nOdat avval mustahkamlanishi, shundan so‘nggina mukammallashishi kerak. Avval har kuni 2 daqiqa sarflab bo‘lsa ham odatni hayotingizga singdiring, keyin davomiylikni bemalol oshirishingiz mumkin."
+        }
+      ]
+    },
+    {
+      "id": "book-3",
+      "title": "Raqamli Qal’a (Digital Fortress)",
+      "author": "Dan Brown",
+      "category": "Detektiv / Texnologiya",
+      "pages": 440,
+      "description": "Kriptografiya, xavfsizlik xizmatlari va sun’iy aql sirlari haqidagi qiziqarli texno-triller.",
+      "coverColor": "#7C2D12",
+      "rating": 4.7,
+      "reviewsCount": 94,
+      "chapters": [
+        {
+          "id": "df-1",
+          "title": "1-bob: Kriptografiya bo‘limidagi favqulodda chaqiruv",
+          "pageStart": 1,
+          "content": "Professor Suzan Fletcher shanba tongida kutilmagan telefon qo‘ng‘irog‘idan uyg‘ondi. Go‘shakning narigi tomonida AQSh Milliy Xavfsizlik Agentligining (NSA) bosh direktori Trevor Stratmor turardi:\n— Suzan, zudlik bilan shtab-kvartiraga yetib kelishing kerak. TRANSLATR superkompyuteri 15 soatdan beri bitta kodni yecha olmayapti.\n\nSuzan karaxt bo‘lib qoldi. TRANSLATR — dunyodagi eng qudratli uch millionta parallel protsessorga ega superkompyuter bo‘lib, hatto eng murakkab 128-bitli shifrlarni ham o‘rtacha 6 daqiqada ochib berardi. 15 soat?! Bu kompyuter tarixida hech qachon sodir bo‘lmagan hodisa edi.\n\nAgentlik zaliga kirib borgan Suzan ko‘k nurli monitorlarga boqdi. Kodning nomi \"Raqamli Qal’a\" (Digital Fortress) bo‘lib, uni agentlikning sobiq daho kriptografi Ensey Tankado yaratgan edi..."
+        },
+        {
+          "id": "df-2",
+          "title": "2-bob: Buzib bo‘lmas yangi shifrlash algoritmi",
+          "pageStart": 50,
+          "content": "Suzan kompyuter terminali qarshisiga o‘tirdi. Kod tahlili kutilmagan haqiqatni fosh etdi: bu oddiy shifr emas, balki \"aylanuvchi mutatsion algoritm\" edi. Ya’ni kompyuter uni yechishga uringan har bir lahzada kod o‘zining kalitini avtomatik tarzda o‘zgartirib borardi.\n\n— Agar bu kod ommaviy internetga chiqib ketsa, — dedi Stratmor past ovozda, — yer yuzidagi barcha maxfiy xabarlar, bank hisoblari va davlat aloqalari himoyasiz qoladi. Biz kodni yaratuvchi qoldirgan maxfiy parolni topishimiz shart."
+        }
+      ]
+    },
+    {
+      "id": "book-4",
+      "title": "Temur tuzuklari",
+      "author": "Sohibqiron Amir Temur",
+      "category": "Tarix va Davlatchilik",
+      "pages": 280,
+      "description": "Amir Temurning davlatni boshqarish, qo‘shin tuzish, adolat va qat’iyat tamoyillari bayon etilgan nodir tarixiy qo‘llanma.",
+      "coverColor": "#1E3A8A",
+      "rating": 5,
+      "reviewsCount": 310,
+      "chapters": [
+        {
+          "id": "tt-1",
+          "title": "1-bo‘lim: Davlatni boshqarishdagi o‘n ikki qoidam",
+          "pageStart": 1,
+          "content": "Bismillohir rohmanir rohim.\nMening farzandlarim, kelajak avlodlarim va davlatni boshqaruvchi izdoshlarimga vasiyatim shuki: Men saltanat martabasiga erishgach, o‘z davlatimni o‘n ikki tamoyil asosida mustahkamladim.\n\nBirinchidan, Tangri taoloning dinini va payg‘ambarimiz Muhammad mustafoning (s.a.v.) shariatini dunyo bo‘yicha yoydim va har ishda adolatni bosh mezon deb bildim.\nIkkinchidan, o‘z yonimga ilmli, zakovatli, uzoqni ko‘ruvchi donishmandlar, fozillar va hunarmandlarni to‘pladim. Ularning maslahatini tingladim, zero bir tadbirli kishining aqli mingta lashkardan ustunroqdir.\nUchinchidan, har bir ishda qat’iyatli bo‘ldim. Bir qarorga kelgach, ikkilanmadim, zotan ikkilanish va shubha saltanatni zaiflashtiradi."
+        },
+        {
+          "id": "tt-2",
+          "title": "2-bo‘lim: Adolat — davlat qudratining poydevori",
+          "pageStart": 40,
+          "content": "Qayerda adolat bo‘lsa, o‘sha yerda obodlik va baraka bo‘ladi.\nMen hukmronligim davrida zulm qiluvchilarning qo‘lini xalqning ustidan qisqartirdim. Hech bir kishining mehnati zoe ketmadi, hech bir begunoh jazolanmadi.\n\nKambag‘al va yetimlarga muruvvat ko‘rsatdim. Biror viloyat fath etilsa, uning dehqonlari va fuqarolariga ozor yetkazishni qat’iyan taqiqladim. Shaharlarda madrasalar, kasalxonalar, kutubxonalar va karvonsaroylar qurdirib, ilmni qadrladim. Mening shiorim: \"Kuch — adolatdadir!\""
+        }
+      ]
+    },
+    {
+      "id": "book-5",
+      "title": "Mantiqut-tayr",
+      "author": "Alisher Navoiy",
+      "category": "Falsafa va Tasavvuf",
+      "pages": 360,
+      "description": "Qushlarning Simurg‘ni izlab qilgan ma’naviy sayohati orqali inson kamoloti va haqiqatga erishish bosqichlari.",
+      "coverColor": "#581C87",
+      "rating": 4.9,
+      "reviewsCount": 167,
+      "chapters": [
+        {
+          "id": "mt-1",
+          "title": "1-doston: Qushlarning yig‘ilishi va Hudhudning da’vati",
+          "pageStart": 1,
+          "content": "Dunyoning barcha qushlari bir joyga to‘planib, o‘zaro nola qildilar:\n— Barcha mavjudotning shohi bor, nega bizning boshimizda adolatli podshoh yo‘q? Biz o‘z podshohimizni topib, uning qoshiga bosh urishimiz darkor!\n\nShunda boshida toji bor dono qush — Hudhud o‘rtaga chiqib dedi:\n— Ey qushlar, bizning buyuk podshohimiz bor, uning oti Simurg‘dir! U Qof tog‘ining ortidagi nurli makonda yashaydi. Uning jamoli shunchalar go‘zalki, unga yetishish uchun yetti ta mashaqqatli vodiyni bosib o‘tish lozim. Bu yo‘l qiyin, ko‘p mashaqqatlarga to‘la, ammo haqiqat va komillik faqat mana shu sinovlar ortidadir!"
+        },
+        {
+          "id": "mt-2",
+          "title": "2-doston: Yetti Vodiy sinovlari va Simurg‘ siri",
+          "pageStart": 60,
+          "content": "Qushlar safarga otlandilar. Ular ketma-ket yetti vodiyga kirdilar:\n1. Talab vodiysi — niyatning pokligi va qat’iyat.\n2. Ishq vodiysi — fidoiylik va qalb yonishi.\n3. Ma’rifat vodiysi — olamning sirlarini aql va hikmat bilan anglash.\n4. Istig‘no vodiysi — dunyo boyliklariga behojatlik.\n5. Tavhid vodiysi — barcha narsaning birligini his qilish.\n6. Hayrat vodiysi — borliqning buyukligi oldida hayratda qolish.\n7. Faqr va Fano vodiysi — o‘z \"men\"idan kechib, haqiqat daryosiga qo‘shilish.\n\nMinglab qushlardan faqat o‘ttiztasi (si murg‘) bu vodiylarni bosib o‘tib, Qof tog‘iga yetib keldi. Ular ko‘zguga boqqanlarida, o‘ttiz qush o‘zlarini — Simurg‘ deb atalgan haqiqat aynan ularning o‘z ichida, o‘z pok qalblarida ekanini kashf etdilar!"
+        }
+      ]
+    }
+  ],
+  "readingLogs": [
+    {
+      "id": "rl-1",
+      "userId": "usr-youth-1",
+      "bookId": "book-1",
+      "bookTitle": "O‘tkan kunlar",
+      "bookAuthor": "Abdulla Qodiriy",
+      "currentPage": 320,
+      "totalPages": 412,
+      "status": "O‘qilmoqda",
+      "updatedAt": "2026-02-28",
+      "rating": 5,
+      "review": "Juda ta’sirli, har bir o‘zbek yoshi mutolaa qilishi shart bo‘lgan buyuk asar."
+    },
+    {
+      "id": "rl-2",
+      "userId": "usr-youth-1",
+      "bookId": "book-2",
+      "bookTitle": "Atom Odatlari",
+      "bookAuthor": "James Clear",
+      "currentPage": 320,
+      "totalPages": 320,
+      "status": "Tugatildi",
+      "updatedAt": "2026-02-15",
+      "rating": 5,
+      "review": "Kunlik 1% yaxshilanish qoidasi hayotimdagi intizomni butkul o‘zgartirdi."
+    }
+  ],
+  "languageGroups": [
+    {
+      "id": "lang-1",
+      "language": "Ingliz tili",
+      "level": "O‘rta (B1-B2)",
+      "title": "Daily Conversational English Club",
+      "schedule": "Seshanba va Payshanba, 19:00",
+      "mentorName": "Kamola Saidova (IELTS 8.5)",
+      "memberCount": 320,
+      "meetingLinkOrPlace": "https://meet.google.com/ufq-eng-daily",
+      "members": [
+        "usr-youth-1"
+      ]
+    },
+    {
+      "id": "lang-2",
+      "language": "Arab tili",
+      "level": "Boshlang‘ich (A1-A2)",
+      "title": "Fusha Arab tili: Fonetika va boshlang‘ich so‘zlashuv",
+      "schedule": "Dushanba va Juma, 18:30",
+      "mentorName": "Ustoz Mirjalol Nurmatov",
+      "memberCount": 180,
+      "meetingLinkOrPlace": "https://meet.google.com/ufq-arab-a1",
+      "members": [
+        "usr-youth-2"
+      ]
+    },
+    {
+      "id": "lang-3",
+      "language": "Rus tili",
+      "level": "O‘rta (B1-B2)",
+      "title": "Delovoy Russkiy: Kasbiy va biznes muloqot",
+      "schedule": "Chorshanba va Shanba, 19:00",
+      "mentorName": "Anna Kim",
+      "memberCount": 210,
+      "meetingLinkOrPlace": "https://meet.google.com/ufq-ru-pro",
+      "members": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "Birinchi Qadam",
+      "description": "Yuksalish Hub platformasida muvaffaqiyatli ro‘yxatdan o‘tib, o‘z hududiy hamjamiyatingizga qo‘shildingiz.",
+      "icon": "Sparkles",
+      "points": 50,
+      "badgeType": "BRONZE"
+    },
+    {
+      "id": "ach-2",
+      "title": "Birinchi Kitob",
+      "description": "Platformada ilk kitob mutolaasini yakunlab, taqriz qoldirdingiz.",
+      "icon": "BookOpen",
+      "points": 100,
+      "badgeType": "SILVER"
+    },
+    {
+      "id": "ach-3",
+      "title": "Faol Kitobxon",
+      "description": "3 ta kitobni to‘liq mutolaa qilib, oylik kitobxonlik marafonida g‘olib bo‘ldingiz.",
+      "icon": "Award",
+      "points": 200,
+      "badgeType": "GOLD"
+    },
+    {
+      "id": "ach-4",
+      "title": "Til O‘rganuvchi",
+      "description": "Til guruhida kamida 5 ta jonli speaking sessiyada faol qatnashdingiz.",
+      "icon": "Globe",
+      "points": 120,
+      "badgeType": "SILVER"
+    },
+    {
+      "id": "ach-5",
+      "title": "Jamoa A’zosi",
+      "description": "Yoshlar loyihalaridan biriga jamoa a’zosi sifatida qabul qilindingiz.",
+      "icon": "Users",
+      "points": 150,
+      "badgeType": "SILVER"
+    },
+    {
+      "id": "ach-6",
+      "title": "Loyiha Yaratuvchisi",
+      "description": "O‘z viloyatingiz rivoji uchun yangi ijtimoiy yoki texnologik loyiha e’lon qildingiz.",
+      "icon": "Rocket",
+      "points": 300,
+      "badgeType": "GOLD"
+    },
+    {
+      "id": "ach-7",
+      "title": "Hudud Yetakchisi",
+      "description": "O‘z viloyatingizda 500 dan ortiq yoshlarni o‘z ortidan ergashtirgan yoshlar sardori.",
+      "icon": "Crown",
+      "points": 500,
+      "badgeType": "PLATINUM"
+    }
+  ],
+  "userAchievements": [
+    {
+      "userId": "usr-youth-1",
+      "achievementId": "ach-1",
+      "unlockedAt": "2026-02-01T15:00:00Z"
+    },
+    {
+      "userId": "usr-youth-1",
+      "achievementId": "ach-2",
+      "unlockedAt": "2026-02-15T18:00:00Z"
+    },
+    {
+      "userId": "usr-youth-1",
+      "achievementId": "ach-5",
+      "unlockedAt": "2026-02-16T12:00:00Z"
+    },
+    {
+      "userId": "usr-youth-2",
+      "achievementId": "ach-1",
+      "unlockedAt": "2026-02-05T10:00:00Z"
+    },
+    {
+      "userId": "usr-youth-2",
+      "achievementId": "ach-2",
+      "unlockedAt": "2026-02-20T11:00:00Z"
+    },
+    {
+      "userId": "usr-youth-2",
+      "achievementId": "ach-3",
+      "unlockedAt": "2026-02-25T14:00:00Z"
+    },
+    {
+      "userId": "usr-youth-2",
+      "achievementId": "ach-6",
+      "unlockedAt": "2026-02-26T16:00:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "usr-youth-1",
+      "title": "Ziyo Mutolaa Klubi a’zoligi tasdiqlandi!",
+      "message": "Siz muvaffaqiyatli tarzda hamjamiyatga qo‘shildingiz. Yangi asarlar muhokamasida faol ishtirok eting.",
+      "type": "COMMUNITY",
+      "link": "/hamjamiyatlar/com-1",
+      "isRead": false,
+      "createdAt": "2026-02-26T10:00:00Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-youth-1",
+      "title": "Yangi yutuq ochildi: \"Jamoa A’zosi\"",
+      "message": "Kutubxona.uz loyihasiga qo‘shilganingiz uchun +150 ball va kumush nishon taqdim etildi.",
+      "type": "SUCCESS",
+      "link": "/yutuqlar",
+      "isRead": false,
+      "createdAt": "2026-02-27T14:30:00Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "usr-youth-1",
+      "title": "Yaqinlashayotgan tadbir eslatmasi",
+      "message": "\"Jadidlar merosi va zamonaviy tafakkur\" onlayn uchrashuvi 5-mart kuni 19:30 da boshlanadi.",
+      "type": "EVENT",
+      "link": "/tadbirlar",
+      "isRead": true,
+      "createdAt": "2026-02-28T09:15:00Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-1",
+      "reporterId": "usr-youth-1",
+      "reporterName": "Jasur Bekmurodov",
+      "targetType": "POST",
+      "targetId": "post-test",
+      "reason": "Mavzuga aloqador bo‘lmagan reklama xabari",
+      "status": "PENDING",
+      "createdAt": "2026-02-25T12:00:00Z"
+    }
+  ]
+}
