@@ -48,8 +48,8 @@ export default async function HomePage() {
 
           {/* Master Headline */}
           <h1 className="text-3xl sm:text-5xl lg:text-7xl font-black text-white tracking-tight leading-[1.15] max-w-4xl mb-4 sm:mb-6">
-            Yoshlar birlashadi.{' '}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-violet-300 to-sky-300">
+            <span className="block">Yoshlar birlashadi.</span>
+            <span className="block bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-violet-300 to-sky-300">
               Kelajak yuksaladi.
             </span>
           </h1>
