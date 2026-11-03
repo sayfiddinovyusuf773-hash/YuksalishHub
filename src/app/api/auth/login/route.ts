@@ -5,7 +5,9 @@ import { setAuthCookie } from '@/lib/auth';
 
 export async function POST(req: Request) {
   try {
-    const { emailOrUsername, password } = await req.json();
+    const body = await req.json();
+    const emailOrUsername = body.emailOrUsername || body.identifier || body.email || body.username;
+    const password = body.password;
 
     if (!emailOrUsername || !password) {
       return NextResponse.json(
